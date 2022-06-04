@@ -1,0 +1,12 @@
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/obj/Debug/net6.0/Solutions.csproj.AssemblyReference.cache
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/obj/Debug/net6.0/Solutions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/obj/Debug/net6.0/Solutions.AssemblyInfoInputs.cache
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/obj/Debug/net6.0/Solutions.AssemblyInfo.cs
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/obj/Debug/net6.0/Solutions.csproj.CoreCompileInputs.cache
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/bin/Debug/net6.0/Solutions.deps.json
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/bin/Debug/net6.0/Solutions.dll
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/bin/Debug/net6.0/Solutions.pdb
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/obj/Debug/net6.0/Solutions.dll
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/obj/Debug/net6.0/refint/Solutions.dll
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/obj/Debug/net6.0/Solutions.pdb
+/Users/killermac/Code/LeetCode/LeetCode/Solutions/obj/Debug/net6.0/ref/Solutions.dll
