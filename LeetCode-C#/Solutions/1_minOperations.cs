@@ -9,7 +9,6 @@ namespace Solutions
         public int Run(string s)
         {
             string input = s;
-            // count
             int count = 0;
 
             return Helper(input, count);
@@ -24,9 +23,12 @@ namespace Solutions
             if (input[0] == input[1])
             {
                 count += 1;
-                input[1].Flip();
+                string result = sub[0].Flip() + sub.Substring(1);
+                Console.WriteLine($"sub:{sub}input:{input}flipped:{result}");
+                return Helper(result, count);
+            } else {
+                return Helper(sub, count);
             }
-            return Helper(sub, count);
         }
 
         static void Main()
@@ -46,9 +48,8 @@ namespace Solutions
 
         public static char Flip(this char c)
         {
-            return c == '1' ? '0' : '1';
+            return (c == '1') ? '0' : '1';
         }
     }
-
 
 }
