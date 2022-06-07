@@ -10,24 +10,27 @@ namespace Solutions
         {
             string input = s;
             int count = 0;
+            int index = 0;
 
-            return Helper(input, count);
+            int result = Helper(input, count, index);
+            return Math.Min(result, s.Length - result);
         }
 
-        private int Helper(string input, int count)
+        private int Helper(string input, int count, int index)
         {
-            if (input.Length <= 1) return count;
+            if (input.Length <= 0) return count;
 
             string sub = input.Shift(1);
+            string bit = "01";
 
-            if (input[0] == input[1])
+            if ( bit[index % 2] == input[0] )
             {
                 count += 1;
-                string result = sub[0].Flip() + sub.Substring(1);
-                Console.WriteLine($"sub:{sub}input:{input}flipped:{result}");
-                return Helper(result, count);
+                index += 1;
+                return Helper(sub, count, index);
             } else {
-                return Helper(sub, count);
+                index += 1;
+                return Helper(sub, count, index);
             }
         }
 
@@ -38,7 +41,7 @@ namespace Solutions
         }
     }
 
-
+    // Wanted to mess with extensions
     public static class MyExtensions
     {
         public static string Shift(this string s, int count)
